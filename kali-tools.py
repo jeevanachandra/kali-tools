@@ -6,7 +6,7 @@ import sys, traceback
 
 
 if os.getuid() != 0:
-	print "S0rry H4Ck3r!. I need sudo privledges to run!!"
+	print "Sorry. This script requires sudo privledges"
 	sys.exit()
 
 print ('''
@@ -35,8 +35,7 @@ Note: Installing all the tools will consume 2 Gigs of data and 10+ gigs of Disk 
 	''')
 	time.sleep(3)
 	print('''\033[1;33m
-HOUDY! R007 # 
- 
+HOUDY ROOT# 
  1.Add and update Repository
  2.Install Information gathering tools
  3.Install Vulnerability Analysis tools
@@ -161,6 +160,7 @@ HOUDY! R007 #
 |---|,---..    ,,---.    ,---.    |    ,---.|__. |__. ,---.,---.,---.,---.,---.,---.,---.,---.,---.,---.,---.,---.
 |   |,---| \  / |---'    ,---|    |    |   ||    |    |---'|---'|---'|---'|---'|---'|---'|---'|---'|---'|---'|---'
 `   '`---^  `'  `---'    `---^    `---'`---'`    `    `---'`---'`---'`---'`---'`---'`---'`---'`---'`---'`---'`---'
+===================================This might takesome time=======================================================
 		\033[1;m ''')
 		print ('''\033[1;36m******************************************************************************************\033[1;m''')
 		
