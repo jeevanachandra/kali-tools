@@ -76,82 +76,93 @@ HOUDY ROOT#
 		print ('''\033[1;36m**************************** Install Information gathering tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y dnsenum dnsrecon fierce lbd wafw00f arping fping hping3 masscan nmap maltego theharvester netdiscover netmask enum4linux nbtscan smbmap swaks onesixtyone snmpcheck ssldump sslh sslscan sslyze dmitry ike-scan recon-ng" )
 		print ("\033[1;36m*************************************************************************************************1\033[1;m ")
-	
+		MainMenu()
+		
 	elif selection == 3:
 		print ('''\033[1;36m**************************** Installing Vulnerability Analysis tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y nikto openvas sqlmap yersinia spike voiphopper unix-privesc-check" )
 		print ("\033[1;36m****************************************************************************************************1\033[1;m ")
-	
+		MainMenu()
 	
 	elif selection == 4:
 		print ('''\033[1;36m**************************** Installing Web Applications tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y  burpsuite zaproxy dirb dirbuster jsql skipfish wfuzz wpscan skipfish cutycapt cadaver davtest whatweb commix" )
 		print ("\033[1;36m**********************************************************************************************1\033[1;m ")
-	
+		MainMenu()
 	
 	elif selection == 5:
 		print ('''\033[1;36m**************************** Installing Database Assessment tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y  sqlmap sqlitebrowser" )
 		print ("\033[1;36m*************************************************************************************************1\033[1;m ")
-	
+		MainMenu()
 	
 	elif selection == 6:
 		print ('''\033[1;36m**************************** Installing Password Attack tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y  hashcat hashid hash-identifier hydra medusa ncrack gpp-decrypt crunch cewl john johnny ophcrack chntpw samdump2 seclists rainbowcrack wordlists patator" )
 		print ("\033[1;36m*********************************************************************************************1\033[1;m ")
-	
+		MainMenu()
 	
 	elif selection == 7:
 		print ('''\033[1;36m**************************** Installing Wireless Attack tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y kismet wifite reaver bully" )
 		print ("\033[1;36m*********************************************************************************************1\033[1;m ")
+		MainMenu()
 	
 	elif selection == 8:
 		print ('''\033[1;36m**************************** Installing Reverse Engineering tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y   binwalk volatility reaver radare2 clang yara")
 		print ("\033[1;36m*********************************************************************************************1\033[1;m ")
-
+		MainMenu()
+		
 	elif selection == 9:
 		print ('''\033[1;36m**************************** Installing Exploitation tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y   armitage empire beef-xss nishang powersploit linux-exploit-suggester routersploit" )
 		print ("\033[1;36m*********************************************************************************************1\033[1;m ")
-	
+		MainMenu()
+		
 	elif selection == 10:
 		print ('''\033[1;36m**************************** Installing Sniffng and Spoofing tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y   mitmproxy responder wireshark netcat ncat ettercap-graphical dnschef netsniff-ng macchanger rebind sslsplit tcpreplay" )
 		print ("\033[1;36m**************************************************************************************************1\033[1;m ")
-	
+		MainMenu()
+		
 	elif selection == 11:
 		print ('''\033[1;36m**************************** Installing Post Exploitation tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y  dbd powersploit nishang sbd laudanum weevely proxychains" )
 		print ("\033[1;36m***********************************************************************************************1\033[1;m ")
-	
+		MainMenu()
+		
 	elif selection == 12:
 		print ('''\033[1;36m**************************** Installing Forensic tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y binwalk bulk-extractor hashdeep " )
 		print ("\033[1;36m**************************************************************************************1\033[1;m ")
-	
+		MainMenu()
+		
 	elif selection == 13:
 		print ('''\033[1;36m************************** Installing Mislinious tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y  crackmapexec bloodhound powershell mimikatz " )
 		cmd= os.system("gem install evil-winrm")	
 		print ("\033[1;36m**************************************************************************************1\033[1;m ")
+		MainMenu()
 		
 	elif selection == 14:
 		print ('''\033[1;36m**************************** Installing Android Debuggin tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y apktool dex2jar smali " )
 		print ("\033[1;36m*********************************************************************************1\033[1;m ")
-	
+		MainMenu()
+		
 	elif selection == 15:
 		print ('''\033[1;36m**************************** Installing Hardware Hacking tools *****************************\033[1;m''')
 		cmd= os.system("apt install -y android-sdk apktool arduino dex2jar sakis3g smali " )
 		print ("\033[1;36m*********************************************************************************1\033[1;m ")
-	
+		MainMenu()
+		
 	elif selection == 16:
 		print ('''\033[1;36m**************************** Installing Kali Menu *****************************\033[1;m''')
 		cmd= os.system("apt install -y  kali-menu " )
 		print ("\033[1;36m*********************************************************************************1\033[1;m ")
-	
+		MainMenu()
+		
 	elif selection == 00:
 		print ('''\033[1;36m**************************** Installing ALL KALI LINUX TOOLS *****************************\033[1;m''')
 		
@@ -177,7 +188,7 @@ _|"""""| _|"""""| _|"""""| _|"""""| _|"""""| _|"""""| _|"""""|
 "`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-' 
 			\033[1;m''')
 		print ("\033[1;36m********************************************************************************************\033[1;m ")
-			
+		MainMenu()	
 			
 			
 	if selection == 17:
