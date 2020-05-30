@@ -85,7 +85,7 @@ HOUDY ROOT#
 	
 	elif selection == 4:
 		print ('''\033[1;36m**************************** Installing Web Applications tools *****************************\033[1;m''')
-		cmd= os.system("apt install -y  burpsuite dirb dirbuster jsql skipfish wfuzz wpscan skipfish cutycapt cadaver davtest whatweb commix" )
+		cmd= os.system("apt install -y  burpsuite zaproxy dirb dirbuster jsql skipfish wfuzz wpscan skipfish cutycapt cadaver davtest whatweb commix" )
 		print ("\033[1;36m**********************************************************************************************1\033[1;m ")
 	
 	
@@ -97,7 +97,7 @@ HOUDY ROOT#
 	
 	elif selection == 6:
 		print ('''\033[1;36m**************************** Installing Password Attack tools *****************************\033[1;m''')
-		cmd= os.system("apt install -y  hashcat hashid hash-identifier hydra medusa ncrack gpp-decrypt crunch cewl john johnny ophcrack chntpw samdump2 patator" )
+		cmd= os.system("apt install -y  hashcat hashid hash-identifier hydra medusa ncrack gpp-decrypt crunch cewl john johnny ophcrack chntpw samdump2 seclists rainbowcrack wordlists patator" )
 		print ("\033[1;36m*********************************************************************************************1\033[1;m ")
 	
 	
@@ -113,7 +113,7 @@ HOUDY ROOT#
 
 	elif selection == 9:
 		print ('''\033[1;36m**************************** Installing Exploitation tools *****************************\033[1;m''')
-		cmd= os.system("apt install -y   armitage beef-xss nishang powersploit linux-exploit-suggester " )
+		cmd= os.system("apt install -y   armitage empire beef-xss nishang powersploit linux-exploit-suggester routersploit" )
 		print ("\033[1;36m*********************************************************************************************1\033[1;m ")
 	
 	elif selection == 10:
@@ -166,7 +166,7 @@ HOUDY ROOT#
 		
 		time.sleep(8)
 		
-		cmd= os.system("apt install -y  dnsenum dnsrecon fierce lbd wafw00f arping fping hping3 masscan nmap maltego theharvester netdiscover netmask enum4linux nbtscan smbmap swaks onesixtyone snmpcheck ssldump sslh sslscan sslyze dmitry ike-scan recon-ng nikto openvas sqlmap yersinia spike voiphopper unix-privesc-check burpsuite dirb dirbuster jsql skipfish wfuzz wpscan skipfish cutycapt cadaver davtest whatweb commix sqlmap sqlitebrowser hashcat hashid hash-identifier hydra medusa ncrack gpp-decrypt crunch cewl john johnny ophcrack chntpw samdump2 patator kismet wifite reaver bully binwalk volatility reaver radare2 clang yara armitage beef-xss nishang powersploit linux-exploit-suggester mitmproxy responder wireshark netcat ncat ettercap-graphical dnschef netsniff-ng macchanger rebind sslsplit tcpreplay dbd powersploit nishang sbd laudanum weevely proxychains binwalk bulk-extractor hashdeep crackmapexec bloodhound powershell mimikatz apktool dex2jar smali android-sdk apktool arduino dex2jar sakis3g " )
+		cmd= os.system("apt install -y  dnsenum dnsrecon fierce lbd wafw00f arping fping hping3 masscan nmap maltego theharvester netdiscover netmask enum4linux nbtscan smbmap swaks onesixtyone snmpcheck ssldump sslh sslscan sslyze dmitry ike-scan recon-ng nikto openvas sqlmap yersinia spike voiphopper unix-privesc-check burpsuite zaproxy dirb dirbuster jsql skipfish wfuzz wpscan skipfish cutycapt cadaver davtest whatweb commix sqlmap sqlitebrowser hashcat hashid hash-identifier hydra medusa ncrack gpp-decrypt crunch cewl john johnny ophcrack chntpw samdump2 patator kismet wifite reaver bully binwalk volatility reaver radare2 clang yara armitage empire routersploit beef-xss nishang powersploit linux-exploit-suggester mitmproxy responder wireshark netcat ncat ettercap-graphical dnschef netsniff-ng macchanger rebind sslsplit tcpreplay dbd powersploit nishang sbd laudanum weevely proxychains binwalk bulk-extractor hashdeep crackmapexec bloodhound powershell mimikatz apktool dex2jar smali android-sdk apktool arduino dex2jar sakis3g seclists rainbowcrack wordlists  " )
 
 		print ("\033[1;36m********************************************************************************************\033[1;m ")
 		print ('''\033[1;32m
