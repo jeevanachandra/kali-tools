@@ -1,4 +1,3 @@
-# kali-tools
 #!/usr/bin/python
 
 import os
@@ -22,19 +21,19 @@ print ('''
 							 \033[1;35m 100+ Tools  \033[1;m
 	''')
 def MainMenu():
-	time.sleep(2)
+	time.sleep(1)
 	print("Please add and update the repository before installing	")
-	time.sleep(5)
+	time.sleep(1)
 	print('''\033[1;91m
 	
 	
 	
-Note: Installing all the tools will consume 2 Gigs of data and 15 gigs of Disk Space \033[1;m
+Note: Installing all the tools will consume 2 Gigs of data and 10+ gigs of Disk Space \033[1;m
 	
 	
 	
 	''')
-	time.sleep(10)
+	time.sleep(3)
 	print('''\033[1;33m
 HOUDY ROOT# 
  1.Add and update Repository
@@ -53,7 +52,7 @@ HOUDY ROOT#
  14.Install Android Debugging Tools
  15.Install Hardware Hacking tools
  16.Install Kali-Menu
- 
+ 17.Exit the tool
  
  00.Install All Kali-linux tools
 	 \033[1;m''')
@@ -104,7 +103,7 @@ HOUDY ROOT#
 	
 	elif selection == 7:
 		print ('''\033[1;36m**************************** Installing Wireless Attack tools *****************************\033[1;m''')
-		cmd= os.system("apt install -y kismet wifite reaver bully fern-wifi-cracker " )
+		cmd= os.system("apt install -y kismet wifite reaver bully" )
 		print ("\033[1;36m*********************************************************************************************1\033[1;m ")
 	
 	elif selection == 8:
@@ -166,7 +165,7 @@ HOUDY ROOT#
 		
 		time.sleep(8)
 		
-		cmd= os.system("apt install -y  dnsenum dnsrecon fierce lbd wafw00f arping fping hping3 masscan nmap maltego theharvester netdiscover netmask enum4linux nbtscan smbmap swaks onesixtyone snmpcheck ssldump sslh sslscan sslyze dmitry ike-scan recon-ng nikto openvas sqlmap yersinia spike voiphopper unix-privesc-check burpsuite dirb dirbuster jsql skipfish wfuzz wpscan skipfish cutycapt cadaver davtest whatweb commix sqlmap sqlitebrowser hashcat hashid hash-identifier hydra medusa ncrack gpp-decrypt crunch cewl john johnny ophcrack chntpw samdump2 patator kismet wifite reaver bully binwalk volatility reaver radare2 clang armitage beef-xss nishang powersploit linux-exploit-suggester mitmproxy responder wireshark netcat ncat ettercap-graphical dnschef netsniff-ng macchanger rebind sslsplit tcpreplay dbd powersploit nishang sbd laudanum weevely proxychains binwalk bulk-extractor hashdeep crackmapexec bloodhound powershell mimikatz  " )
+		cmd= os.system("apt install -y  dnsenum dnsrecon fierce lbd wafw00f arping fping hping3 masscan nmap maltego theharvester netdiscover netmask enum4linux nbtscan smbmap swaks onesixtyone snmpcheck ssldump sslh sslscan sslyze dmitry ike-scan recon-ng nikto openvas sqlmap yersinia spike voiphopper unix-privesc-check burpsuite dirb dirbuster jsql skipfish wfuzz wpscan skipfish cutycapt cadaver davtest whatweb commix sqlmap sqlitebrowser hashcat hashid hash-identifier hydra medusa ncrack gpp-decrypt crunch cewl john johnny ophcrack chntpw samdump2 patator kismet wifite reaver bully binwalk volatility reaver radare2 clang yara armitage beef-xss nishang powersploit linux-exploit-suggester mitmproxy responder wireshark netcat ncat ettercap-graphical dnschef netsniff-ng macchanger rebind sslsplit tcpreplay dbd powersploit nishang sbd laudanum weevely proxychains binwalk bulk-extractor hashdeep crackmapexec bloodhound powershell mimikatz  " )
 
 		print ("\033[1;36m********************************************************************************************\033[1;m ")
 		print ('''\033[1;32m
@@ -180,18 +179,9 @@ _|"""""| _|"""""| _|"""""| _|"""""| _|"""""| _|"""""| _|"""""|
 			
 			
 			
-	else:
-		print('''\033[1;41m
-   _     _     _     _     _  
-  / \   / \   / \   / \   / \ 
- ( e ) ( r ) ( r ) ( o ) ( r )
-  \_/   \_/   \_/   \_/   \_/ 
- 
-
-		\033[1;m ''')
-		MainMenu()
-
-	
+	if selection == 17:
+		print ("\033[1;33mBYE BYE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\033[1;m ")
+		exit()
+		
 MainMenu()
-
 
