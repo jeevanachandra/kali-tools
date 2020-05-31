@@ -25,17 +25,15 @@ def MainMenu():
 	print("Please add and update the repository before installing	")
 	time.sleep(1)
 	print('''\033[1;91m
-	
-	
-	
+		
 Note: Installing all the tools will consume 2 Gigs of data and 10+ gigs of Disk Space \033[1;m
-	
-	
-	
+		
 	''')
 	time.sleep(3)
 	print('''\033[1;33m
 HOUDY ROOT# 
+
+
  1.Add and update Repository
  2.Install Information gathering tools
  3.Install Vulnerability Analysis tools
