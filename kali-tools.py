@@ -31,7 +31,7 @@ Note: Installing all the tools will consume 2 Gigs of data and 10+ gigs of Disk 
 	''')
 	time.sleep(3)
 	print('''\033[1;33m
-HOUDY ROOT# 
+HOWDY ROOT# 
 
 
  1.Add and update Repository
