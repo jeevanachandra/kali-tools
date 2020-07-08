@@ -24,6 +24,6 @@
 ![Screenshot 2](https://user-images.githubusercontent.com/49685254/83291933-e09b5080-a206-11ea-8257-c1cf34591de8.png)
 
 ### Install git (sudo apt install git)
-### git clone https://github.com/jandhyalasamhith/kali-tools.git
+### git clone https://github.com/jeevanachandra/kali-tools.git
 ### sudo ./kali-tools.py
 ### Install what you needed
