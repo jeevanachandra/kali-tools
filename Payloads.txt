@@ -1,0 +1,19 @@
+GitHub - dobin/antnium
+GitHub - preemptdev/bluffy: Convert shellcode into different formats!
+pimpmyadlab/nukedefender.ps1 at main · Dewalt-arch/pimpmyadlab · GitHub
+GitHub - 0xCyberY/Antivirus-Evasion-Py2exe: Simple python script to evade antiviruses on fully patched and updated Windows environments using a py2exe.
+GitHub - trainr3kt/NoteThief: Grab unsaved Notepad contents with a Beacon Object File
+GitHub - Kudaes/Dumpy: Reuse opened handles to dynamically dump LSASS using Dinvoke_rs.
+GitHub - trustedsec/SliverKeylogger
+GitHub - boku7/BokuLoader: Cobalt Strike User-Defined Reflective Loader written in Assembly & C for advanced evasion capabilities. By: @0xBoku & @s4ntiago_p
+GitHub - S3cur3Th1sSh1t/Nim_DInvoke: D/Invoke implementation in Nim
+GitHub - mgeeky/ThreadStackSpoofer: Thread Stack Spoofing - PoC for an advanced In-Memory evasion technique allowing to better hide injected shellcode's memory allocation from scanners and analysts.
+GitHub - crisprss/BypassUserAdd: 通过反射DLL注入、Win API、C#、以及底层实现NetUserAdd方式实现BypassAV进行增加用户的功能,实现Cobalt Strike插件化
+GitHub - 3xpl01tc0d3r/ProcessInjection: This program is designed to demonstrate various process injection techniques
+GitHub - zAbuQasem/PwnShell: Command Execution exploiter with an auto connection handling
+GitHub - Cr4sh/MicroBackdoor: Small and convenient C2 tool for Windows targets. [ Сотрудникам ФСБ РФ, КГБ РБ и др. использующим этот инструмент: когда наши танки въедут в Москву, мы тебя повесим © 😇 ]
+GitHub - SecIdiot/beacon: Former attempt at creating a independent Cobalt Strike Beacon
+GitHub - Idov31/Nidhogg: Nidhogg is an all-in-one simple to use rootkit for red teams.
+GitHub - FortyNorthSecurity/EDD: Enumerate Domain Data
+GitHub - RcoIl/CSharp-Tools: .NET C# Tools
+GitHub - sp00ks-git/sp00ks-ADEnum: Common Recon during Red Team in C#
